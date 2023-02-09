@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora</title>
+    <link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+    <script src="calculadora.js"></script>
+    <header>
+        <h1>Calculadora</h1>
+        <p>Um projeto simples para pura prática</p>
+    </header>
+    <main>
+        <section>
+            <div>
+                <p>
+                    <input type="button" value="+" onclick="somar()">
+                    <input type="button" value="-" onclick="subtrair()">
+                    <input type="button" value="X" onclick="multiplicar()">
+                    <input type="button" value="/" onclick="dividir()">
+                </p>
+                <p>
+                    <input type="number" name="x" id="x">
+                    <input type="number" name="y" id="y">
+                </p>
+            </div>
+            <div id="res">
+                O resultado irá aparecer aqui
+            </div>
+        </section>
+    </main>
+    <footer>
+        <p>Criado por &copy;<a href="https://www.linkedin.com/in/gustavo-geres-80b295248/" target="_blank">Gustavo Jorge Geres</a></p>
+    </footer>
+    
+</body>
+</html>
