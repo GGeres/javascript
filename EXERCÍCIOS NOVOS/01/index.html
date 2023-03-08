@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Desafio das Mensagem</title>
+    <style>
+        div{
+            background-image: linear-gradient(to bottom, white, lightgrey);
+            width: 70px;
+            height: 20px;
+            text-align: center;
+            padding: 10px;
+            display: inline;
+            border-color: rgb(0, 0, 0);
+            border-style: solid;
+            box-shadow: 1px 1px 0 rgba(0, 0, 0, 0.384);
+        }
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+    </style>
+</head>
+<body>
+    <h1>Desafio das Mensagens</h1>
+    <p>
+        <div id="botão 1" onclick="Clicar()">Botão 1</div>
+        <div id="botão 2" onclick="Clicar()">Botão 2</div>
+        <div id="botão 3" onclick="Clicar()">Botão 3</div>
+    </p>
+    <script>
+            var msg1 = document.getElementById('botão 1')
+            ms1.addEventListener('click',Clicar)
+
+            var msg2 = document.getElementById('botão 2')
+            ms2.addEventListener('click',Clicar)
+
+            var msg3 = document.getElementById('botão 3')
+            ms3.addEventListener('click', Clicar)
+        function Clicar(){
+            Window.alert(`Você clicou no $`)
+            
+        }
+    </script>
+</body>
+</html>
