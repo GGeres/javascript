@@ -1,4 +1,4 @@
-let valores = [5,6,9,2,3,10,25]
+let valores = [5,6,9,2,3]
 valores.sort()
 /*
 for (let pos=0; pos<valores.length;pos++){
