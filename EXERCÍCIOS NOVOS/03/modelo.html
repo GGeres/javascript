@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jogo da Velha</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Jogo da Velha</h1>
+    </header>
+    <section>
+        <p>
+            <div id="NW" onmouseover="acenderNW()" onmouseout="apagarNW()">
+                <p>X</p> <p>O</p>
+            </div>
+            <div id="N" onmouseover="acenderN()" onmouseout="apagarN()">
+                <p>X</p> <p>O</p>
+            </div>
+            <div id="NE" onmouseover="acenderNE()" onmouseout="apagarNE()">
+                <p>X</p> <p>O</p>
+            </div>
+        </p>
+        <p>
+            <div id="CW" onmouseover="acenderCW()" onmouseout="apagarCW()">
+                <p>X</p> <p>O</p>
+            </div>
+            <div id="C" onmouseover="acenderC()" onmouseout="apagarC()">
+                <p>X</p> <p>O</p>
+            </div>
+            <div id="CE" onmouseover="acenderCE()" onmouseout="apagarCE()">
+                <p>X</p> <p>O</p>
+            </div>
+        </p>
+        <p>
+            <div id="SW" onmouseover="acenderSW()" onmouseout="apagarSW()">
+                <p>X</p> <p>O</p>
+            </div>
+            <div id="S" onmouseover="acenderS()" onmouseout="apagarS()">
+                <p>X</p> <p>O</p>
+            </div>
+            <div id="SE" onmouseover="acenderSE()" onmouseout="apagarSE()">
+                <p>X</p> <p>O</p>
+            </div>
+        </p>
+        <p>
+            <input type="radio" name="Players" id="PX" checked>
+            <label for="PX">Jogar com X</label>
+            <input type="radio" name="Players" id="PO" >
+            <label for="PO">Jogar com O</label>
+        </p>
+
+    </section>
+    <footer>
+        <p>&copy; CursoemVídeo</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
