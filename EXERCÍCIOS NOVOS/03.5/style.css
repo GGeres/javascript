@@ -32,6 +32,9 @@ div{
     text-align: center;
     font-size: 80px;
 }
+div:hover{
+    background-color: yellow;
+}
 
 div > p{
     display: none;
