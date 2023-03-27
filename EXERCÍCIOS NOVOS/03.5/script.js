@@ -1,10 +1,8 @@
 
-let jvelha = document.getElementsByClassName('velha')
-let valores;
+const jvelha = document.getElementsByClassName('velha')
 let player = document.getElementsByName('Players')
-let simb = ''
-let X = document.getElementById('PX')
-let O = document.getElementById('PO')
+let jog_X = 'X'
+let jog_O = 'O'
 let positions =[
     [1,2,3],
     [4,5,6],
@@ -16,21 +14,20 @@ let positions =[
     [3,5,7],
 ];
 
-function jog(p){
-    if(p = X){
-        return 'X'
-    } else if(p = O){
-        return 'O'
+document.addEventListener("click", (event) =>{
+    if(event.target.matches('.velha')){
+    jogo(event.target.id);
     }
+});
+function jogo(id){
+    const jvelha = document.getElementById(id);
+    if(player[0].checked){
+        id = jog_X
+    } else{
+        id = jog_O
+    }
+    jvelha.textContent = id
 }
-if(player[0]){
-    p = X
-}else{
-    p = O
-}
-
-
-
 
 
 

@@ -35,15 +35,6 @@ div{
 div:hover{
     background-color: yellow;
 }
-
-div > p{
-    display: none;
-}
-
-div:hover > p{
-    display: block;
-}
-
 footer{
     color: white;
     text-align: center;
